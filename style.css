@@ -348,12 +348,12 @@ body {
 /* Media Query untuk handphone (misalnya layar dengan lebar max 480px) */
 @media (max-width: 480px) {
   .judul {
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .home a,
 .wisata a {
-  font-size: 12px;
+  font-size: 8px;
 }
   
   .logo img {
