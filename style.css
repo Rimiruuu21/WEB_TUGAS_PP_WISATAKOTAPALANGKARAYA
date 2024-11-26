@@ -324,7 +324,7 @@ body {
   }
 
   .dropdown-content {
-    right: 0;
+    left: -70px;
   }
   
   .logo img {
@@ -361,7 +361,7 @@ body {
   }
   
   .dropdown-content {
-    right: 0;
+    left: -70px;
   }
   
   .logo img {
