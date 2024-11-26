@@ -314,6 +314,15 @@ body {
 
 /*responsive*/
 @media (max-width: 768px) {
+  .judul {
+    font-size: 18px;
+  }
+
+  .home a,
+.wisata a {
+  font-size: 14px;
+}
+  
   .logo img {
     height: 60px; /* Ukuran logo lebih kecil pada tablet */
   }
