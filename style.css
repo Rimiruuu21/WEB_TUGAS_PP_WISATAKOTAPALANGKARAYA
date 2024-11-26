@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Foto Bergerak */
+.fotoBergerak {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.fotoBergerak img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/*navbar*/
+.navbar {
+  position: relative; /* Tidak absolute agar bisa menyesuaikan tinggi konten */
+  width: 100%;
+  background: url(/logo_bc/background.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Elemen dapat menumpuk */
+  justify-content: space-between; /* Spasi antar elemen */
+  align-items: center; /* Vertikal rata */
+}
+
+/* Logo */
+.logo {
+  flex: 1; /* Berikan fleksibilitas pada logo */
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px; /* Sesuaikan tinggi logo */
+  object-fit: contain;
+}
+
+/* Judul */
+.judul {
+  flex: 50; /* Judul lebih menonjol */
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-right {
+  display: flex; /* Mengatur elemen horizontal */
+  gap: 20px; /* Jarak antar elemen */
+  align-items: center;
+}
+
+.home,
+.wisata {
+  display: inline-block; /* Membuat elemen tidak menjadi blok penuh */
+}
+
+.home a,
+.wisata a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.home a:hover,
+.wisata a:hover {
+  color: #c6e7ff; /* Warna hover */
+}
+
+/* Dropdown untuk Wisata */
+.wisata {
+  position: relative; /* Agar dropdown muncul di bawahnya */
+}
+
+.dropdown-content {
+  display: none; /* Sembunyikan secara default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wisata:hover .dropdown-content {
+  display: block; /* Tampilkan saat hover */
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #0d3b6c;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #0d3b6c;
+  color: white;
+}
+
+/* Search */
+.cari {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.cari input[type="text"] {
+  width: 80%; /* Ukuran input */
+  padding: 10px;
+  font-size: 16px;
+  font-family: poppins;
+  border: 1px solid #ccc;
+  border: none;
+  border-bottom: 3px solid #000;
+  background-color: transparent;
+  color: #fff;
+}
+
+.cari input[type="text"]::placeholder {
+  color: #fff;
+}
+
+.cari input[type="text"]:focus {
+  outline: none;
+  border-bottom: 3px solid #000; /* Warna fokus */
+  color: #fff;
+}
+
+/*pindah untuk on click*/
+.card {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.card[style="display: none;"] {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+/*wisata*/
+.wisata-container {
+  display: flex;
+  flex-wrap: wrap; /* Membungkus elemen jika layar sempit */
+  align-items: center; /* Rata tengah */
+  text-align: center; /* Konten rata tengah */
+  justify-content: center; /* Mengatur elemen agar berada di tengah */
+  gap: 20px; /* Jarak antar elemen */
+  margin: 70px 70px; /* Margin di luar container */
+  padding: 0 10px; /* Padding dalam container */
+}
+
+.card {
+  flex: 1 10%; /* Ukuran kartu */
+  max-width: 500px; /* Batas lebar elemen */
+  min-width: 280px; /* Batas lebar minimum */
+  margin: 10px 10px; /* Tambahkan margin untuk jarak antar elemen */
+  cursor: pointer; /* Ubah kursor saat hover */
+}
+
+.card {
+  width: 320px; /* Lebar kartu */
+  height: 320px; /* Tinggi kartu */
+  background-color: #c6e7ff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+.card img {
+  width: 100%; /* Lebar gambar */
+  height: 150px; /* Tinggi gambar */
+  object-fit: cover;
+  background-color: #c0c0c0; /* Placeholder warna latar */
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card-content span {
+  font-size: 14px;
+  color: #333;
+}
+
+/*pop up*/
+.modal {
+  display: none; /* Sembunyikan modal secara default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparansi latar belakang */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 900px;
+  text-align: center;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+#modal-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Jarak antar gambar */
+  justify-content: center;
+}
+
+#modal-images img {
+  width: calc(50% - 10px); /* Dua foto per baris */
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #c6e7ff;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  flex-direction: column; /* Menyusun elemen footer secara vertikal */
+  text-align: center; /* Memastikan teks terpusat pada perangkat kecil */
+  padding: 20px 0; /* Memberikan ruang di sekitar konten footer */
+}
+
+.logoBawah {
+  flex: 1; /* Berikan fleksibilitas pada logo */
+  display: flex;
+  align-items: center;
+}
+
+.logoBawah img {
+  height: 80px; /* Sesuaikan tinggi logo */
+  object-fit: contain;
+}
+
+.kontak {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px; /* Menambahkan jarak dari gambar */
+}
+
+.informasi {
+  font-size: 18px;
+  margin-top: 5px; /* Menambahkan jarak dari kontak */
+}
+
+/*responsive*/
+@media (max-width: 768px) {
+  .logo img {
+    height: 60px; /* Ukuran logo lebih kecil pada tablet */
+  }
+
+  .footer {
+    height: auto; /* Membuat tinggi footer lebih fleksibel pada tablet */
+    padding: 40px 20px; /* Memberikan ruang lebih pada sisi-sisinya */
+  }
+
+  .logoBawah {
+    height: 60px; /* Menurunkan tinggi logo pada tablet */
+  }
+
+  .kontak {
+    font-size: 18px; /* Mengurangi ukuran font pada tablet */
+  }
+
+  .informasi {
+    font-size: 16px; /* Mengurangi ukuran font pada tablet */
+  }
+}
+
+/* Media Query untuk handphone (misalnya layar dengan lebar max 480px) */
+@media (max-width: 480px) {
+  .logo img {
+    height: 40px; /* Ukuran logo lebih kecil pada handphone */
+  }
+
+  .footer {
+    padding: 20px 10px; /* Memberikan ruang lebih kecil pada sisi-sisinya di handphone */
+    height: auto; /* Menyesuaikan tinggi footer secara fleksibel */
+  }
+
+  .logoBawah {
+    height: 40px; /* Menurunkan ukuran gambar logo pada handphone */
+  }
+
+  .kontak {
+    font-size: 16px; /* Ukuran font kontak lebih kecil pada handphone */
+  }
+
+  .informasi {
+    font-size: 14px; /* Ukuran font informasi lebih kecil pada handphone */
+  }
+}

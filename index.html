@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Wisata Kota Palangka Raya</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <div class="navbar">
+      <div class="logo"><img src="/logo_bc/logo_baru.png" alt="logo" /></div>
+      <div class="judul">Wisata Kota Palangka Raya</div>
+      <div class="navbar-right">
+        <div class="home"><a href="index.html">Home</a></div>
+        <div class="wisata">
+          <a href="#">Wisata</a>
+          <div class="dropdown-content">
+            <a href="#" onclick="filterCategory('alam')">Wisata Alam</a>
+            <a href="#" onclick="filterCategory('kuliner')">Wisata Kuliner</a>
+          </div>
+        </div>
+      </div>
+      <div class="fotoBergerak">
+        <img id="slideshow" src="/foto_wisata/wisata1.jpeg" alt="foto" />
+      </div>
+      <div class="cari">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search"
+          oninput="filterSearch()"
+        />
+      </div>
+    </div>
+    <!--content wisata-->
+    <!--content wisata 1-->
+    <div class="wisata-container">
+      <div class="card" data-category="alam" onclick="openModal(1)">
+        <img src="/foto_wisata/wisata1.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Danum Bahandang</h3>
+          <p>
+            Alamat : Jalan Tjilik Riwut Kilometer 38, Desa Sungai Gohong,
+            Kecamatan Bukit Batu, Palangka Raya.
+          </p>
+          <span>Wisata Alam</span>
+        </div>
+      </div>
+      <!--content wisata 2-->
+      <div class="card" data-category="alam" onclick="openModal(2)">
+        <img src="/foto_wisata/wisata2.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Kereng Bangkirai</h3>
+          <p>Alamat : Kereng Bangkirai, Kec. Sebangau, Kota Palangka Raya.</p>
+          <span>Wisata Alam</span>
+        </div>
+      </div>
+      <!--content wisata 3-->
+      <div class="card" data-category="kuliner" onclick="openModal(3)">
+        <img src="/foto_wisata/wisata3.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Kampung Lauk</h3>
+          <p>
+            Alamat : Jl. Bukit Rawi Km No.2, Pahandut Seberang, Kec. Pahandut,
+            Kota Palangka Raya.
+          </p>
+          <span>Kuliner</span>
+        </div>
+      </div>
+      <!--content wisata 4-->
+      <div class="card" data-category="kuliner" onclick="openmodal(4)">
+        <img src="/foto_wisata/wisata4.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Saung Rindu Telaga</h3>
+          <p>
+            Alamat : Jl. Strawberry Raya, Panarung, Kec. Pahandut, Kota Palangka
+            Raya.
+          </p>
+          <span>Kuliner</span>
+        </div>
+      </div>
+      <!--content wisata 5-->
+      <div class="card" data-category="alam" onclick="openmodal(5)">
+        <img src="/foto_wisata/wisata5.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Nyaru menteng</h3>
+          <p>
+            Alamat : Arboretum Nyaru Menteng, Jl. Tjilik Riwut No.Km 28, Tumbang
+            Tahai, Kec. Bukit Batu, Kota Palangka Raya.
+          </p>
+          <span>Wisata Alam</span>
+        </div>
+      </div>
+      <!--content wisata 6-->
+      <div class="card" data-category="kuliner" onclick="openmodal(6)">
+        <img src="/foto_wisata/wisata6.png" alt="1" />
+        <div class="card-content">
+          <h3>Saung Malambai</h3>
+          <p>
+            Alamat : Jl. Kapur Naga I No.13, Panarung, Kec. Pahandut, Kota
+            Palangka Raya.
+          </p>
+          <span>Kuliner</span>
+        </div>
+      </div>
+      <!--content wisata 7-->
+      <div class="card" data-category="kuliner" onclick="openmodal(7)">
+        <div class="card-image">
+          <img src="/foto_wisata/wisata7.jpeg" alt="1" />
+        </div>
+        <div class="card-content">
+          <h3>Kuliner Tempoe Doeloe Serba Kandas</h3>
+          <p>
+            Alamat : Jl. Kutilang No.54, Palangka, Kec. Jekan Raya, Kota
+            Palangka Raya.
+          </p>
+          <span>Kuliner</span>
+        </div>
+      </div>
+      <!--content wisata 8-->
+      <div class="card" data-category="kuliner" onclick="openmodal(8)">
+        <div class="card-image">
+          <img src="/foto_wisata/wisata8.jpeg" alt="1" />
+        </div>
+        <div class="card-content">
+          <h3>Pondok Ikan Cianjur</h3>
+          <p>
+            Alamat : Jl. Kahayan, Palangka, Kec. Jekan Raya, Kota Palangka Raya.
+          </p>
+          <span>Kuliner</span>
+        </div>
+      </div>
+      <!--content wisata 9-->
+      <div class="card" data-category="alam" onclick="openmodal(9)">
+        <div class="card-image">
+          <img src="/foto_wisata/wisata9.jpeg" alt="1" />
+        </div>
+        <div class="card-content">
+          <h3>Bukit tangkiling</h3>
+          <p>Alamat : Jl. Bukit Banama, Banturung, Kota Palangka Raya.</p>
+          <span>Wisata Alam</span>
+        </div>
+      </div>
+      <!--content wisata 10-->
+      <div class="card" data-category="alam" onclick="openmodal(10)">
+        <img src="/foto_wisata/wisata10.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Danau Tahai</h3>
+          <p>Alamat : Tumbang Tahai, Kec. Bukit Batu, Kota Palangka Raya.</p>
+          <span>Wisata Alam</span>
+        </div>
+      </div>
+      <!--content wisata 11-->
+      <div class="card" data-category="kuliner" onclick="openmodal(11)">
+        <img src="/foto_wisata/wisata11.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Rumah Makan Samba (masakan khas Kalteng)</h3>
+          <p>
+            Alamat : Jl. RTA Milono No.15, Langkai, Kec. Pahandut, Kota Palangka
+            Raya.
+          </p>
+          <span>Kuliner</span>
+        </div>
+      </div>
+      <!--content wisata 12-->
+      <div class="card" data-category="alam">
+        <img src="/foto_wisata/wisata12.jpeg" alt="1" />
+        <div class="card-content">
+          <h3>Taman Pasuk Kameloh</h3>
+          <p>
+            Alamat : Jl. S. Parman, Langkai, Kec. Pahandut, Kota Palangka Raya.
+          </p>
+          <span>Wisata Alam</span>
+        </div>
+      </div>
+    </div>
+    <!--Pop up untuk menampilkan deskripsi-->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-body">
+          <h2 id="modal-title">Nama Wisata</h2>
+          <p id="modal-description">Deskripsi Wisata</p>
+          <div id="modal-images">
+            <!-- Foto-foto akan diisi secara dinamis oleh JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <div class="logoBawah"><img src="/logo_bc/logo_baru.png" alt="1" /></div>
+      <div class="kontak"><p>Kontak Kami</p></div>
+      <div class="informasi">
+        <p>wiskopky@gmail.com</p>
+      </div>
+    </div>
+  </body>
+  <!--js-->
+  <script src="script.js"></script>
+</html>
