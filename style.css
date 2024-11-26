@@ -338,6 +338,15 @@ body {
 
 /* Media Query untuk handphone (misalnya layar dengan lebar max 480px) */
 @media (max-width: 480px) {
+  .judul {
+    font-size: 16px;
+  }
+
+  .home a,
+.wisata a {
+  font-size: 12px;
+}
+  
   .logo img {
     height: 40px; /* Ukuran logo lebih kecil pada handphone */
   }
