@@ -52,7 +52,7 @@ const wisataData = [
       "Wisata Air Hitam Kereng Bangkirai merupakan wisata populer yang ada di Kelurahan Sebangau ,Kota Palangka Raya. Tempat wisata ini menyuguhkan keindahan dermaga dengan berbagai fasilitas wahana yang menjadi nilai lebih untuk dapat dinikmati. Wahana tersebut diantaranya adalah sepeda bebek air, gazebo, menara pandang dan susur sungai. Untuk dapat mencapai Kereng Bangkirai , kita hanya perlu menempuh jarak kurang lebih 30 menit dengan menggunakan kendaraan pribadi maupun sewaan. Tiket masuk menuju wisata ini hanya Rp. 5000 per orang dengan tarif masing-masing wahana berkisar Rp. 5000 hingga Rp. 20.000.",
     images: [
       "./foto_infoWisata/kerengBangkirai_foto1.jpg",
-      "./foto_infoWisata/kerengbangkirai_foto2.jpg",
+      "./foto_infoWisata/kerengBangkirai_foto2.jpg",
     ],
   },
   {
