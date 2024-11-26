@@ -34,7 +34,7 @@ body {
 .navbar {
   position: relative; /* Tidak absolute agar bisa menyesuaikan tinggi konten */
   width: 100%;
-  background: url(/logo_bc/background.jpg) no-repeat center center;
+  background: url(./logo_bc/background.jpg) no-repeat center center;
   background-size: cover;
   padding: 20px;
   display: flex;
