@@ -261,6 +261,10 @@ body {
   text-decoration: none;
 }
 
+#modal-description {
+  text-align: justify;
+}
+
 #modal-images {
   display: flex;
   flex-wrap: wrap;
