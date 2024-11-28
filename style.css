@@ -43,6 +43,11 @@ body {
   align-items: center; /* Vertikal rata */
 }
 
+/* Menu Web
+#menu-web {
+  display: none; 
+}*/
+
 /* Logo */
 .logo {
   flex: 1; /* Berikan fleksibilitas pada logo */
@@ -159,7 +164,6 @@ body {
 .cari input[type="text"]:focus {
   outline: none;
   border-bottom: 3px solid #000; /* Warna fokus */
-  color: #000;
 }
 
 /*pindah untuk on click*/
@@ -270,7 +274,8 @@ body {
   text-decoration: none;
 }
 
-#modal-description {
+#modal-description,
+#point-wisata {
   text-align: justify;
 }
 
@@ -326,29 +331,16 @@ body {
   margin-top: 5px; /* Menambahkan jarak dari kontak */
 }
 
+html {
+  scroll-behavior: smooth; /* Animasi scroll halus */
+}
+
 /*responsive*/
 @media (max-width: 768px) {
   .judul {
-    font-size: 18px;
+    font-size: 18px; /* Ukuran judul lebih kecil pada tablet */
   }
 
-  .home a,
-  .wisata a {
-    font-size: 14px;
-  }
-
-  .dropdown-content {
-    display: none; /* Sembunyikan secara default */
-    position: absolute;
-    top: 100%;
-    left: -70px;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
   .logo img {
     height: 60px; /* Ukuran logo lebih kecil pada tablet */
   }
@@ -386,31 +378,6 @@ body {
 
 /* Media Query untuk handphone (misalnya layar dengan lebar max 480px) */
 @media (max-width: 480px) {
-  .judul {
-    font-size: 12px;
-  }
-
-  .home a,
-  .wisata a {
-    font-size: 10px;
-  }
-  
-  .dropdown-content {
-    display: none; /* Sembunyikan secara default */
-    position: absolute;
-    top: 100%;
-    left: -70px;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  
-  .logo img {
-    height: 40px; /* Ukuran logo lebih kecil pada handphone */
-  }
-
   .footer {
     padding: 20px 10px; /* Memberikan ruang lebih kecil pada sisi-sisinya di handphone */
     height: auto; /* Menyesuaikan tinggi footer secara fleksibel */
