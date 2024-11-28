@@ -71,7 +71,8 @@ body {
 }
 
 .home,
-.wisata {
+.wisata,
+.batas {
   display: inline-block; /* Membuat elemen tidak menjadi blok penuh */
 }
 
