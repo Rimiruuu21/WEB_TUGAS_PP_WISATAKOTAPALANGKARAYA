@@ -249,10 +249,6 @@ const closeModal = document.querySelector(".close");
 function openModal(wisataId) {
   const wisata = wisataData.find((item) => item.id === wisataId);
 
-  // Update judul dan deskripsi
-  modalTitle.textContent = wisata.name;
-  modalDescription.textContent = wisata.description;
-
   // Update points (jika ada)
   if (wisata.points && wisata.points.length > 0) {
     // Tampilkan daftar points
@@ -268,7 +264,11 @@ function openModal(wisataId) {
     pointWisataElement.innerHTML = "";
     pointWisataElement.style.display = "none";
   }
-  
+
+  // Update judul dan deskripsi
+  modalTitle.textContent = wisata.name;
+  modalDescription.textContent = wisata.description;
+
   // Bersihkan gambar sebelumnya
   const modalImagesContainer = document.getElementById("modal-images");
   modalImagesContainer.innerHTML = "";
