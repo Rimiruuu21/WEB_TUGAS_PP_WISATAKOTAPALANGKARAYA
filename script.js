@@ -109,7 +109,7 @@ const wisataData = [
       "Arboretum Nyaru Menteng merupakan kawasan hutan yang di dalamnya terdapat spesies flora dan fauna dan kawasan tersebut menjadi kawasan pelestarian plasma nutfah ekosistem hutan rawa, termasuk ke tipe hutan tropika dataran rendah, dengan kondisi tanah berawa dan bergambut. Jenis tanah terdiri dari aluvial, organosol, pasir kuarsa dengan drainase tergenang. Daya tarik Arboretum, yaitu pesona keindahan alam yang berupa hutan tropis dan keanekaragaman flora dan fauna khas Kalimantan Tengah serta tersedia tempat informasi tentang orang utan.",
     points: [
       "Jalan menuju kesana sudah beraspal dan mudah diakses.",
-      "Bayar masuk tempat wisata ini sekitar Rp 5.000 ke atas.",
+      "Masuk ke tempat wisata ini gratis.",
       "Memiliki tempat parkir yang luas untuk mobil bayar parkir harusnya Rp. 5000 dan motor Rp. 2.000.",
       "Tempat ini memiliki fasilitas toilet yang bersih.",
       "Wisata ini bagus tempat foto-foto sambil menikmati keindahan alam dan melihat hewan yang di pelihara di sana7.",
