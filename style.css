@@ -58,7 +58,7 @@ body {
 
 /* Judul */
 .judul {
-  flex: 50; /* Judul lebih menonjol */
+  flex: 5; /* Judul lebih menonjol */
   text-align: center;
   font-size: 24px;
   font-weight: 600;
