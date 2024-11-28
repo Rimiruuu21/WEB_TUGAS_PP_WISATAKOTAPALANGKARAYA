@@ -48,6 +48,7 @@ body {
   flex: 1; /* Berikan fleksibilitas pada logo */
   display: flex;
   align-items: center;
+  margin-left: 20px; /* Jarak kiri dari logo */
 }
 
 .logo img {
@@ -90,6 +91,7 @@ body {
 /* Dropdown untuk Wisata */
 .wisata {
   position: relative; /* Agar dropdown muncul di bawahnya */
+  margin-right: 80px; /* Jarak kanan dari elemen lain */
 }
 
 .dropdown-content {
@@ -119,6 +121,12 @@ body {
 .dropdown-content a:hover {
   background-color: #0d3b6c;
   color: white;
+}
+
+.batas {
+  font-size: 18px; /* Ukuran font sesuai dengan link */
+  color: #000; /* Warna teks */
+  margin: 0 10px; /* Jarak horizontal dengan elemen lain */
 }
 
 /* Search */
@@ -359,6 +367,19 @@ body {
 
   .informasi {
     font-size: 16px; /* Mengurangi ukuran font pada tablet */
+  }
+
+  .home a,
+  .wisata a {
+    font-size: 16px; /* Membuat elemen tidak menjadi blok penuh */
+  }
+
+  .logo {
+    margin-left: 0; /* Mengurangi margin kiri pada tablet */
+  }
+
+  .wisata {
+    margin-right: 0; /* Mengurangi margin kanan pada tablet */
   }
 }
 
