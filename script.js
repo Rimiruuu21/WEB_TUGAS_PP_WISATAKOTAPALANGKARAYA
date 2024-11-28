@@ -39,7 +39,14 @@ const wisataData = [
     id: 1,
     name: "Danum Bahandang",
     description:
-      "Sebuah destinasi alternatif wisata baru yang masih berada di kawasan Kota Palangka Raya, Kalimantan Tengah kini mulai dilirik masyarakat. Objek wisata tersebut bernama Danum Bahandang, yang terletak di Jalan Tjilik Riwut Kilometer 38, Desa Sungai Gohong, Kecamatan Bukit Batu, Palangka Raya. Untuk menuju objek wisata Danum Bahandang di kawasan Bukit Batu Kanarakan yang berjarak sekitar 38 kilometer dari Kota Palangka Raya hanya membutuhkan waktu kurang dari 1 jam dengan menempuh perjalanan darat. Selain alam yang masih asri, objek wisata Danum Bahandang ini memiliki pesona  bernuansa alam gambut dengan air nya yang mengalir berwarna hitam ke merah-merahan, terdiri dari hamparan pasir putih dan disekelilingnya ditumbuhi pohon-pohon besar sehingga tampak hening dan sejuk.",
+      "Sebuah destinasi alternatif wisata yang masih berada di kawasan Kota Palangka Raya, Kalimantan Tengah kini mulai dilirik masyarakat. Objek wisata tersebut bernama Danum Bahandang, yang terletak di Jalan Tjilik Riwut Kilometer 38, Desa Sungai Gohong, Kecamatan Bukit Batu, Palangka Raya. Untuk menuju objek wisata Danum Bahandang di kawasan Bukit Batu Kanarakan yang berjarak sekitar 38 kilometer dari Kota Palangka Raya hanya membutuhkan waktu kurang dari 1 jam dengan menempuh perjalanan darat. Selain alam yang masih asri, objek wisata Danum Bahandang ini memiliki pesona  bernuansa alam gambut dengan air nya yang mengalir berwarna hitam ke merah-merahan, terdiri dari hamparan pasir putih dan disekelilingnya ditumbuhi pohon-pohon besar sehingga tampak hening dan sejuk.",
+    points: [
+      "Jalan masuk ke wisata ini belum aspal masih tanah, namun masih bisa dilalui kendaraan roda dua maupun roda empat.",
+      "Memiliki wc yang bersih.",
+      "Memiliki fasilitas parkir yang luas.",
+      "Harga masuk yang terjangkau baik di hari biasa maupun hari libur. Harga tiket sekitar Rp 15.000 per orang.",
+      "Juga terdapat warung tempat makan dan minum.",
+    ],
     images: [
       "./foto_infoWisata/danumBahandang_foto1.jpg",
       "./foto_infoWisata/danumBahandang_foto2.jpg",
@@ -49,7 +56,13 @@ const wisataData = [
     id: 2,
     name: "Kereng Bangkirai",
     description:
-      "Wisata Air Hitam Kereng Bangkirai merupakan wisata populer yang ada di Kelurahan Sebangau ,Kota Palangka Raya. Tempat wisata ini menyuguhkan keindahan dermaga dengan berbagai fasilitas wahana yang menjadi nilai lebih untuk dapat dinikmati. Wahana tersebut diantaranya adalah sepeda bebek air, gazebo, menara pandang dan susur sungai. Untuk dapat mencapai Kereng Bangkirai , kita hanya perlu menempuh jarak kurang lebih 30 menit dengan menggunakan kendaraan pribadi maupun sewaan. Tiket masuk menuju wisata ini hanya Rp. 5000 per orang dengan tarif masing-masing wahana berkisar Rp. 5000 hingga Rp. 20.000.",
+      "Wisata Air Hitam Kereng Bangkirai merupakan wisata populer yang ada di Kelurahan Sebangau, Kota Palangka Raya. Tempat wisata ini menyuguhkan keindahan dermaga dengan berbagai fasilitas wahana yang menjadi nilai lebih untuk dapat dinikmati. Wahana tersebut diantaranya adalah sepeda bebek air, gazebo, menara pandang dan susur sungai. Untuk dapat mencapai Kereng Bangkirai, kita hanya perlu menempuh jarak kurang lebih 30 menit dengan menggunakan kendaraan pribadi maupun sewaan.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Memiliki wc yang bersih.",
+      "Memiliki tempat parkir yang cukup luas. Motor harga parkir Rp 2.000 dan mobil Rp 5.000.",
+      "Harga masuk yang terjangkau baik di hari biasa maupun hari libur. Harga tiket masuknya Rp 5.000 per orang.",
+    ],
     images: [
       "./foto_infoWisata/kerengBangkirai_foto1.jpg",
       "./foto_infoWisata/kerengBangkirai_foto2.jpg",
@@ -60,6 +73,13 @@ const wisataData = [
     name: "Kampung Lauk",
     description:
       "Kampung Lauk Palangka Raya adalah surga bagi para pecinta seafood. Terletak di Kota Palangka Raya, Kalimantan Tengah, tempat ini menyuguhkan berbagai jenis ikan segar yang diolah dengan bumbu-bumbu khas Kalimantan. Nikmati kelezatan ikan bakar dengan bumbu meresap, sembari ditemani kuah sup ikan yang segar dan sambal-sambal yang menggugah selera. Suasana yang nyaman dan harga yang terjangkau membuat Kampung Lauk menjadi pilihan tepat untuk mencicipi hidangan laut autentik. Dengan lokasi yang strategis, Anda dapat dengan mudah menemukan tempat makan yang menyajikan aneka olahan ikan segar ini.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Memiliki harga yang terjangkau dan juga menyediakan paket hemat.",
+      "Memiliki banyak tempat duduk baik di kursi maupun lesehan.",
+      "WC tersedia dan bersih.",
+      "Parkir yang luas dan untuk motor Rp 2.000 dan mobil Rp 5.000.",
+    ],
     images: [
       "./foto_infoWisata/kampungLauk_foto1.jpeg",
       "./foto_infoWisata/kampungLauk_foto2.jpeg",
@@ -69,7 +89,14 @@ const wisataData = [
     id: 4,
     name: "Saung Rindu Telaga",
     description:
-      "Tempat wisata kuliner ini memiliki tempat yang unik dan nyaman. Ada beberapa hal yang menjadikan Saung Rindu Telaga berbeda dengan wisata kuliner lain nya, antara lainya: Wisata terdapat taman mini untuk anak-anak yang berkunjung, kemudian makanan dan penyajian makanan nya yang unik salah satu nya tempat air minum nya seperti kembali ke jaman 90-an, dan yang menjadi ironisnya dari wisata ini adalah memiliki kolam dibawah tempat makan yang memiliki ratusan ikan mas koki dan ikan hias lain nya menjadikan pemandangan lebih indah.",
+      "Tempat wisata kuliner ini memiliki tempat yang unik dan nyaman. Ada beberapa hal yang menjadikan Saung Rindu Telaga berbeda dengan wisata kuliner lain nya, antara lainya: Makanan dan penyajian makanan nya yang unik salah satu nya tempat air minum nya seperti kembali ke jaman 90-an, dan yang menjadi ironisnya dari wisata ini adalah memiliki kolam dibawah tempat makan yang memiliki ratusan ikan mas koki dan ikan hias lain nya menjadikan pemandangan lebih indah.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Makanan kisaran Rp 25.000 ke atas. Sedangkan minuman kisaran Rp 5.000 ke atas.",
+      "Memiliki banyak tempat duduk baik di kursi maupun lesehan.",
+      "WC tersedia dan bersih.",
+      "Parkir untuk motor Rp 2.000 dan mobil Rp 5.000.",
+    ],
     images: [
       "./foto_infoWisata/saungRinduTelaga_foto1.jpg",
       "./foto_infoWisata/saungRinduTelaga_foto2.jpg",
@@ -80,6 +107,13 @@ const wisataData = [
     name: "Nyaru Menteng",
     description:
       "Arboretum Nyaru Menteng merupakan kawasan hutan yang di dalamnya terdapat spesies flora dan fauna dan kawasan tersebut menjadi kawasan pelestarian plasma nutfah ekosistem hutan rawa, termasuk ke tipe hutan tropika dataran rendah, dengan kondisi tanah berawa dan bergambut. Jenis tanah terdiri dari aluvial, organosol, pasir kuarsa dengan drainase tergenang. Daya tarik Arboretum, yaitu pesona keindahan alam yang berupa hutan tropis dan keanekaragaman flora dan fauna khas Kalimantan Tengah serta tersedia tempat informasi tentang orang utan.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Bayar masuk tempat wisata ini sekitar Rp 5.000 ke atas.",
+      "Memiliki tempat parkir yang luas untuk mobil bayar parkir harusnya Rp. 5000 dan motor Rp. 2.000.",
+      "Tempat ini memiliki fasilitas toilet yang bersih.",
+      "Wisata ini bagus tempat foto-foto sambil menikmati keindahan alam dan melihat hewan yang di pelihara di sana7.",
+    ],
     images: [
       "./foto_infoWisata/nyaruMenteng_foto1.jpeg",
       "./foto_infoWisata/nyaruMenteng_foto2.jpeg",
@@ -89,7 +123,14 @@ const wisataData = [
     id: 6,
     name: "Saung Malambai",
     description:
-      "Saung Malambai adalah salah satu destinasi kuliner favorit di Palangkaraya yang menawarkan suasana nyaman dan menu beragam. Dengan desain interior yang menarik dan lokasi yang strategis, tempat ini menjadi pilihan sempurna untuk bersantap bersama keluarga atau teman. Selain hidangan utama yang menggugah selera, Saung Malambai juga menyajikan berbagai camilan dan minuman segar. Kepopulerannya semakin meningkat berkat konsep saung-saung unik yang menjadi daya tarik tersendiri. Tak heran jika Saung Malambai kerap dijadikan spot foto yang instagramable. Dengan harga yang terjangkau dan pelayanan yang ramah, Saung Malambai berhasil memikat hati pengunjung dari berbagai kalangan.",
+      "Saung Malambai adalah salah satu destinasi kuliner favorit di Palangkaraya yang menawarkan suasana nyaman dan menu beragam. Dengan desain interior yang menarik dan lokasi yang strategis, tempat ini menjadi pilihan sempurna untuk bersantap bersama keluarga atau teman. Selain hidangan utama yang menggugah selera, Saung Malambai juga menyajikan berbagai camilan dan minuman segar. Kepopulerannya semakin meningkat berkat konsep saung-saung unik yang menjadi daya tarik tersendiri. Tak heran jika Saung Malambai kerap dijadikan spot foto yang instagramable.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Tempat kuliner ini lebih banyak lesehan dari pada duduk di kursi, cocok untuk yang ingin bersantai sambil menikmati suasana.",
+      "Harga makanan mulai dari Rp 20. 000 ke atas.",
+      "Bayar parkir pada tempat kuliner ini motor Rp 2.000 dan mobil Rp 5.000.",
+      "Toilet tersedia dan bersih.",
+    ],
     images: [
       "./foto_infoWisata/saungMalambai_foto1.jpg",
       "./foto_infoWisata/saungMalambai_foto2.jpg",
@@ -100,6 +141,12 @@ const wisataData = [
     name: "Kuliner Tempoe Doeloe Serba Kandas",
     description:
       "Kuliner Tempoe Doeloe Serba Kandas adalah salah satu destinasi kuliner di Palangkaraya yang menawarkan cita rasa khas Kalimantan Tengah. Tempat makan ini menyajikan beragam menu tradisional, dengan fokus utama pada olahan ikan dan sambal kandas yang menjadi ciri khasnya. Suasana tempo dulu yang kental terasa begitu memasuki restoran, membuat pengunjung seolah diajak bernostalgia. Menu andalan mereka adalah ikan lais goreng atau ikan saluang yang disajikan dengan sambal kandas yang pedas dan kaya rempah. Selain itu, terdapat pula berbagai pilihan menu lainnya seperti sayur bening, kalakai, dan berbagai jenis olahan ikan lainnya. Bagi pencinta kuliner tradisional, Kuliner Tempoe Doeloe Serba Kandas adalah tempat yang wajib dikunjungi untuk merasakan cita rasa asli Kalimantan Tengah.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Sesuai namanya disini banyak menjual makanan serba kandas.",
+      "Harga makanan yang terjangkau.",
+      "Parkir yang lumayan luas.",
+    ],
     images: [
       "./foto_infoWisata/serbaKandas_foto1.jpg",
       "./foto_infoWisata/serbaKandas_foto2.jpeg",
@@ -109,7 +156,14 @@ const wisataData = [
     id: 8,
     name: "Pondok Ikan Cianjur",
     description:
-      "Pondok Ikan Cianjur adalah destinasi kuliner favorit di Palangkaraya yang terkenal dengan sajian seafood segarnya. Dengan suasana yang nyaman dan santai, tempat ini cocok untuk bersantap bersama keluarga atau teman. Menu andalan mereka adalah berbagai olahan ikan, seperti gurame, bawal, dan kakap, yang disajikan dengan beragam pilihan bumbu. Selain itu, terdapat juga menu ayam, bebek, dan seafood lainnya. Terutama sate ikan gurame yang wajib dicoba, karena memiliki cita rasa yang khas dan menggugah selera. Dengan harga yang terjangkau dan pelayanan yang ramah, Pondok Ikan Cianjur menjadi tempat makan yang populer di Palangkaraya.",
+      "Pondok Ikan Cianjur adalah destinasi kuliner favorit di Palangkaraya yang terkenal dengan sajian seafood segarnya. Dengan suasana yang nyaman dan santai, tempat ini cocok untuk bersantap bersama keluarga atau teman. Menu andalan mereka adalah berbagai olahan ikan, seperti gurame, bawal, dan kakap, yang disajikan dengan beragam pilihan bumbu. Selain itu, terdapat juga menu ayam, bebek, dan seafood lainnya. Terutama sate ikan gurame yang wajib dicoba, karena memiliki cita rasa yang khas dan menggugah selera.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Memiliki tempat parkir yang luas dan bayar parkir untuk mobil Rp 5.000 dan untuk motor Rp. 2.000.",
+      "Tempat makan ini memiliki harga yang lumayan mahal namun memiliki rasa yang enak. Harga makanan mulai dari Rp 25.000 ke atas.",
+      "Toilet tersedia dan bersih.",
+      "Memiliki banyak tempat duduk dan bisa memesan ruang private.",
+    ],
     images: [
       "./foto_infoWisata/cianjur_foto1.jpeg",
       "./foto_infoWisata/cianjur_foto2.jpg",
@@ -119,7 +173,15 @@ const wisataData = [
     id: 9,
     name: "Bukit Tangkiling",
     description:
-      "Taman Wisata Alam Bukit Tangkiling merupakan salah satu objek wisata alam yang berada di Kota Palangka Raya. Taman Wisata Alam Bukit Tangkiling mencakup seluruh wilayah perbukitan diantaranya Bukit Tangkiling, Bukit Baranahu, Bukit Buhis, Bukit Liau, Bukit Kitabala, Bukit Bulam, Bukit Tisin, Bukit Kalalawit, dan Bukit Tunggal. Daya Tarik wisata Taman Wisata Alam Tangkiling, yaitu ekosistem alam flora dan founa hutan tropis, perbukitan, tanaman herbal/depot obat, kolam buaya, beruang, depot anggrek, panjat tebing, jalan refleksi, tracking hutan, dan pohon yang dilindungi (tengkawang, ulin), dan lebah madu.",
+      "Taman Wisata Alam Bukit Tangkiling merupakan salah satu objek wisata alam yang berada di Kota Palangka Raya. Taman Wisata Alam Bukit Tangkiling mencakup seluruh wilayah perbukitan diantaranya Bukit Tangkiling, Bukit Baranahu, Bukit Buhis, Bukit Liau, Bukit Kitabala, Bukit Bulam, Bukit Tisin, Bukit Kalalawit, dan Bukit Tunggal. Daya Tarik wisata Taman Wisata Alam Tangkiling, yaitu ekosistem alam flora dan founa hutan tropis, perbukitan, dan pohon yang dilindungi (tengkawang, ulin), dan lebah madu.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses mungkin saat sudah masuk gang tempat wisata jalannya lumayan agak rusak.",
+      "Bayar masuk wisata bukit tangkiling Rp 10.000 per orang.",
+      "Tempat parkir yang luas untuk motor maupun mobil.",
+      "Toilet tersedia dan bersih.",
+      "Saat mendaki bukit, pengunjung akan disuguhkan pemandangan yang indah.",
+      "Saat mendaki ada tempat istirahat dan warung.",
+    ],
     images: [
       "./foto_infoWisata/bukitTangkiling_foto1.jpg",
       "./foto_infoWisata/bukitTangkiling_foto2.jpg",
@@ -130,6 +192,12 @@ const wisataData = [
     name: "Danau Tahai",
     description:
       "Danau Tahai, dengan warna airnya yang kemerahan khas dan suasana yang tenang, menawarkan pengalaman wisata yang tak terlupakan. Pengunjung dapat menikmati keindahan alam, mencoba berbagai aktivitas wisata, atau sekadar bersantai di tepi danau. Namun, potensi wisata Danau Tahai masih belum tergarap secara maksimal. Dengan pengembangan infrastruktur dan fasilitas yang lebih baik, serta upaya pelestarian lingkungan, Danau Tahai dapat menjadi salah satu destinasi wisata unggulan di Kalimantan Tengah.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Bayar masuk wisata ini sekitar Rp 5.000 per orang.",
+      "Parik yang luas untuk motor dan mobil.",
+      "Bagus tempat foto-foto sambil menikmati keindahan alam danau tahai.",
+    ],
     images: [
       "./foto_infoWisata/danauTahai_foto1.jpg",
       "./foto_infoWisata/danauTahai_foto2.jpeg",
@@ -140,6 +208,12 @@ const wisataData = [
     name: "Rumah Makan Samba (masakan khas Kalteng)",
     description:
       "Rumah Makan Samba adalah destinasi kuliner wajib bagi siapa saja yang berkunjung ke Palangkaraya. Menu-menu yang disajikan merupakan perpaduan sempurna antara cita rasa tradisional Dayak dengan sentuhan modern. Salah satu menu andalannya adalah ikan patin bakar yang diolah dengan bumbu khas Kalimantan Tengah. Selain itu, terdapat pula berbagai pilihan menu lainnya seperti sayur bening, manok pansoh, dan juhu sangrai. Dengan pelayanan yang ramah dan profesional.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Seperti namanya disini banyak menjual makanan khas dayak. ",
+      "Makanan di sini harganya lumayan mahal, mungking mulai dari Rp 40.000 ke atas tapi boleh di coba minimal sekali saat mengunjungi Palangkaraya.",
+      "Parkir lumayan luas dan bayar parkir untuk motor Rp 2.000 dan mobil Rp 5.000.",
+    ],
     images: [
       "./foto_infoWisata/samba_foto1.jpeg",
       "./foto_infoWisata/samba_foto2.jpg",
@@ -150,6 +224,12 @@ const wisataData = [
     name: "Taman Pasuk Kameloh",
     description:
       "Taman Pasuk Kameloh adalah taman kota yang menjadi favorit warga Palangkaraya. Dengan suasana yang sejuk dan rindang, taman ini menawarkan berbagai fasilitas seperti tempat parkir, toilet umum, dan masjid. Keunikan taman ini terletak pada keberadaan patung-patung yang menggambarkan kehidupan masyarakat Kalimantan Tengah. Lokasinya yang strategis di sepanjang Jalan S. Parman membuat taman ini mudah diakses oleh masyarakat. Taman Pasuk Kameloh adalah tempat yang ideal untuk bersantai, berolahraga, atau sekadar menikmati suasana hijau di tengah kota.",
+    points: [
+      "Jalan menuju kesana sudah beraspal dan mudah diakses.",
+      "Saat mengunjungi taman pasuk kameloh area parkir hanya di sebrang jalan dan bayar parkir untuk motor Rp 2.000 dan mobil Rp 5.000.",
+      "Ada orang berjualan makanan dan minuman.",
+      "Bagus untuk bersantai di sore hari melihat pemandangan sungai kahayan dan jembatan kahayan.",
+    ],
     images: [
       "./foto_infoWisata/pasukKameloh_foto1.jpeg",
       "./foto_infoWisata/pasukKameloh_foto2.jpg",
@@ -161,6 +241,7 @@ const wisataData = [
 const modal = document.getElementById("modal");
 const modalTitle = document.getElementById("modal-title");
 const modalDescription = document.getElementById("modal-description");
+const pointWisataElement = document.getElementById("point-wisata");
 const modalImage = document.getElementById("modal-image");
 const closeModal = document.querySelector(".close");
 
@@ -172,6 +253,22 @@ function openModal(wisataId) {
   modalTitle.textContent = wisata.name;
   modalDescription.textContent = wisata.description;
 
+  // Update points (jika ada)
+  if (wisata.points && wisata.points.length > 0) {
+    // Tampilkan daftar points
+    let pointList = "<ul>";
+    wisata.points.forEach((point) => {
+      pointList += `<li>${point}</li>`;
+    });
+    pointList += "</ul>";
+    pointWisataElement.innerHTML = pointList;
+    pointWisataElement.style.display = "block"; // Pastikan elemen terlihat
+  } else {
+    // Sembunyikan elemen jika tidak ada points
+    pointWisataElement.innerHTML = "";
+    pointWisataElement.style.display = "none";
+  }
+  
   // Bersihkan gambar sebelumnya
   const modalImagesContainer = document.getElementById("modal-images");
   modalImagesContainer.innerHTML = "";
