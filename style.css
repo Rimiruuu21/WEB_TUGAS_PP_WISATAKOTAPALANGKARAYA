@@ -345,10 +345,6 @@ html {
     height: 60px; /* Ukuran logo lebih kecil pada tablet */
   }
 
-  .dropdown-content {
-    margin-right: 70px;
-  }
-
   .footer {
     height: auto; /* Membuat tinggi footer lebih fleksibel pada tablet */
     padding: 40px 20px; /* Memberikan ruang lebih pada sisi-sisinya */
@@ -371,12 +367,16 @@ html {
     font-size: 16px; /* Membuat elemen tidak menjadi blok penuh */
   }
 
+  .dropdown-content a {
+    font-size: 12px;
+  }
+
   .logo {
     margin-left: 0; /* Mengurangi margin kiri pada tablet */
   }
 
   .wisata {
-    margin-right: -20px; /* Mengurangi margin kanan pada tablet */
+    margin-right: 0; /* Mengurangi margin kanan pada tablet */
   }
 }
 
