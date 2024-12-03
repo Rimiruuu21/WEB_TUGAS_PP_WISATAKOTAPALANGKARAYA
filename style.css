@@ -387,15 +387,24 @@ html {
     height: auto; /* Menyesuaikan tinggi footer secara fleksibel */
   }
 
-  .logoBawah {
-    height: 40px; /* Menurunkan ukuran gambar logo pada handphone */
+  .judul {
+    font-size: 12px; /* Ukuran judul lebih kecil pada handphone */
+  }
+
+  .home a,
+  .wisata a {
+    font-size: 14px; /* Membuat elemen tidak menjadi blok penuh */
+  }
+
+  .dropdown-content a {
+    font-size: 10px; /* Ukuran font dropdown lebih kecil pada tablet */
+  }
+
+  .logoBawah img {
+    height: 60px; /* Menurunkan ukuran gambar logo pada handphone */
   }
 
   .kontak {
     font-size: 16px; /* Ukuran font kontak lebih kecil pada handphone */
-  }
-
-  .informasi {
-    font-size: 14px; /* Ukuran font informasi lebih kecil pada handphone */
   }
 }
