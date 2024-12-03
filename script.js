@@ -16,6 +16,9 @@ const images = [
   "./foto_wisata/wisata1.jpeg", // Ganti dengan path gambar Anda
   "./foto_wisata/wisata2.jpeg",
   "./foto_wisata/wisata3.jpeg",
+  "./foto_infoWisata/saungRinduTelaga_foto1.jpg",
+  "./foto_infoWisata/nyaruMenteng_foto1.jpeg",
+  "./foto_infoWisata/bukitTangkiling_foto1.jpg",
 ];
 
 // Ambil elemen <img>
